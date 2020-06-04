@@ -12,7 +12,7 @@ public class ModernFurnitureFactory implements FurnitureFactory {
     }
 
     @Override
-    public CoffeeTeble createCoffeeTable() {
+    public CoffeeTable createCoffeeTable() {
         return new ModernCoffeeTable();
     }
 }
