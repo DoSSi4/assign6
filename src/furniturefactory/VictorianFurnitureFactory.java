@@ -12,7 +12,7 @@ public class VictorianFurnitureFactory implements FurnitureFactory {
     }
 
     @Override
-    public CoffeeTeble createCoffeeTable() {
+    public CoffeeTable createCoffeeTable() {
         return new VictorianCoffeeTable();
     }
 }
